@@ -5,8 +5,8 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+//cannot make api keys public for real projects
 const API_KEY = "AIzaSyDY3mv3Elr4lPshOg9vXZfm3ld71YgrgAA";
-
 
 class App extends Component {
 
@@ -17,7 +17,7 @@ class App extends Component {
     this.state = { videos: [], selectedVideo: null };
 
     YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
-      this.setState( { videos: videos, selectedVideo: videos[0] });
+      this.setState( { videos: videos, selectedVideo: videos[0] } );
     });
 
   }
