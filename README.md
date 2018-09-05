@@ -1,25 +1,11 @@
-# ReduxSimpleStarter
+# youtubeAPI
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+youtubeAPI is a single page web app. It is part of Stephen Grider's https://www.udemy.com/react-redux/ course.
 
-### Getting Started
+# Features
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+* Acquire youtube API key from Google's Developers Console.
+* Install lodash & youtube api search as dependecies.
+* Make youtube API searches based upon user input. 
+* Use lodash's dbounce method. This function updates the app at an even pace, so as to prevent the app from re-rendering too many times and appearing glitchy as the user types in the search bar. 
+* Pass a callback method from the top component to its child (videolist), and then pass this method to videolist's child (videolistItem). This callback method changes state of the top component. When the top component's state changes, it renders, and renders all of its children. 
