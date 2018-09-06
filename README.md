@@ -8,5 +8,5 @@ Live site: https://marquez93.github.io/youtubeAPI/
 * Acquire youtube API key from Google's Developers Console.
 * Install lodash & youtube api search as dependecies.
 * Make youtube API searches based upon user input. 
-* Use lodash's dbounce method. This function updates the app at an even pace, so as to prevent the app from re-rendering too many times and appearing glitchy as the user types in the search bar. 
-* Pass a callback method from the top component to its child (videolist), and then pass this method to videolist's child (videolistItem). This callback method changes state of the top component. When the top component's state changes, it renders, and renders all of its children (and their children). 
+* Use lodash's dbounce method. This function updates the app at an even pace. Dbounce prevents the app from re-rendering too many times, and prevents it from appearing glitchy to the user. 
+* Pass a callback method from the entry component to its child (videolist). Pass this method to videolist's child (videolistItem). This callback method changes the state of the entry component. When the entry component's state changes, it renders, and subsequently renders all of its children (and their children etc). 
