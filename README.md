@@ -1,6 +1,6 @@
 # youtubeAPI
 
-youtubeAPI is a single page web app. It is part of Stephen Grider's https://www.udemy.com/react-redux/ course.
+youtubeAPI is a single page web app. It is part of Stephen Grider's https://www.udemy.com/react-redux/ course. <br/>
 Live site: https://marquez93.github.io/youtubeAPI/
 
 # Features
