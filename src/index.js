@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
 
     this.state = { videos: [], selectedVideo: null };
-    this.videoSearch('surfboards'); //default search
+    this.videoSearch('mcgregor alvarez full fight'); //default search
   }
 
   videoSearch(term) {
