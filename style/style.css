@@ -1,10 +1,19 @@
 .search-bar {
   margin: 20px;
   text-align: center;
+  display: flex;
+  cursor: pointer;
+}
+.sbDivInput{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  cursor: auto;
 }
 
 .search-bar input {
   width: 250px;
+  padding-left: 10px;
 }
 
 .video-item img {
