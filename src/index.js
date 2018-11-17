@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
 
     this.state = { videos: [], selectedVideo: null };
-    this.videoSearch('alpaca thesaurus'); //default search
+    this.videoSearch('react redux'); //default search
   }
 
   videoSearch(term) {
