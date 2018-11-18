@@ -1,10 +1,10 @@
 # [youtubeAPI](https://marquez93.github.io/youtubeAPI/)
 
-youtubeAPI is a React app inspired by [Youtube](https://www.youtube.com/) and Stephen Grider's [React] (https://www.udemy.com/react-redux/) course.
+youtubeAPI is a React app inspired by [Youtube](https://www.youtube.com/) and Stephen Grider's [React](https://www.udemy.com/react-redux/) course.
 
 <p align="center"><img src="https://i.imgur.com/qYMCdyN.png" width="800px" /></p>
 
-# Features
+## Features
 
 * Acquire Youtube API key from Google's Developers Console.
 * Make Youtube API searches based upon user input.
@@ -22,5 +22,5 @@ youtubeAPI is a React app inspired by [Youtube](https://www.youtube.com/) and St
 ## Built With
 
 * [React](https://reactjs.org/docs/getting-started.html) - The frontend framework used
-* [Lodash] (https://lodash.com/) - JS library used
-* [Youtube API] (https://www.npmjs.com/package/youtube-api-search) - NPM package used
+* [Lodash](https://lodash.com/) - JS library used
+* [Youtube API](https://www.npmjs.com/package/youtube-api-search) - NPM package used
