@@ -2,7 +2,7 @@
 
 youtubeAPI is a React app inspired by [Youtube](https://www.youtube.com/) and Stephen Grider's [React](https://www.udemy.com/react-redux/) course.
 
-<p align="center"><img src="https://i.imgur.com/qYMCdyN.png" width="800px" /></p>
+<p align="center"><img src="https://i.imgur.com/qYMCdyN.png" cursor="auto" width="800px" /></p>
 
 ## Features
 
