@@ -9,16 +9,10 @@ class SearchBar extends Component {
   }
 
   renderSVG(){
-    const divStyle = {
-      pointerEvents: 'none',
-      display: 'block',
-      width: '15%',
-      height: '15%',
-      cursor: 'pointer'
-    };
     return (
+      <div className="svgDiv" onClick={event => this.onInputChange('', 'react redux')}>
 
-    <svg className="svg" viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" style={divStyle}><g viewBox={"0 0 200 60" } preserveAspectRatio={"xMidYMid meet"}>
+    <svg className="svg" viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false"><g viewBox={"0 0 200 60" } preserveAspectRatio={"xMidYMid meet"}>
         <g>
           <path fill="#FF0000" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
             c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
@@ -60,6 +54,7 @@ class SearchBar extends Component {
           </g>
         </g>
       </g></svg>
+    </div>
     );
   }
   render() {
@@ -77,9 +72,9 @@ class SearchBar extends Component {
     );
   }
 
-  onInputChange(term) {
+  onInputChange(term, termValue=term) {
     this.setState({term});
-    this.props.onSearchTermChange(term);
+    this.props.onSearchTermChange(termValue);
   }
 }
 

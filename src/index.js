@@ -20,6 +20,9 @@ class App extends Component {
   }
 
   videoSearch(term) {
+    if (term.trim() == ''){
+      term = 'react redux';
+    }
     YTSearch({key: API_KEY, term: term}, (videos) => {
       this.setState( { videos: videos, selectedVideo: videos[0] } );
     });
