@@ -53,8 +53,7 @@ class SearchBar extends Component {
               c0.13,1.17,0.2,2.83,0.2,4.99V36.93z"></path>
           </g>
         </g>
-      </g></svg>
-    </div>
+      </g></svg> </div>
     );
   }
   render() {

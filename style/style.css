@@ -18,6 +18,7 @@
   height: 100%;
 }
 .sbDivInput{
+  margin-left: 55px;
   display: flex;
   justify-content: flex-start;
   width: 100%;
