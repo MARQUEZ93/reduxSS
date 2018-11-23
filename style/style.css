@@ -38,12 +38,40 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  max-height: 100%;
 }
 
 .list-group-item {
   cursor: pointer;
+  height: 140px;
+  width: 328px;
 }
 
 .list-group-item:hover {
   background-color: #eee;
+}
+.details{
+  font-family: Roboto, Arial, sans-serif;
+  color: #111111;
+}
+.detailsTitle{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.detailsImg{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+.detailsDescription{
+  display: flex;
+  border-top: 1px solid #E8E8E8;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.detailsDescriptionText{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
