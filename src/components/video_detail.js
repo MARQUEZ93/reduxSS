@@ -8,6 +8,7 @@ const VideoDetail = ({video}) => {
   }
   const videoId = video.id.videoId;
   const url = `https://www.youtube.com/embed/${videoId}`;
+  let date = new Date(Date.parse(video.snippet.publishedAt)).toDateString();
   return (
     <div className="video=detail col-md-8">
       <div className="embed-responsive embed-responsive-16by9">
@@ -18,9 +19,9 @@ const VideoDetail = ({video}) => {
         <div className="detailsDescription">
           <img className="detailsImg" src={video.snippet.thumbnails.high.url} />
           <div className="detailsDescriptionText">
-            {video.snippet.channelTitle}
-            {video.snippet.publishedAt}
-            {video.snippet.description}
+            <div className="channelTitle">{video.snippet.channelTitle}</div>
+            <div className="publishedAt">Published on {date}</div>
+            <div className="description">{video.snippet.description}</div>
           </div>
         </div>
       </div>

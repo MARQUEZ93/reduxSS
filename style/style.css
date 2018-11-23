@@ -57,16 +57,19 @@
 .detailsTitle{
   margin-top: 10px;
   font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E8E8E8;
 }
 .detailsImg{
   height: 48px;
   width: 48px;
   border-radius: 50%;
+  margin-right: 15px;
 }
 .detailsDescription{
+  width: 100%;
   display: flex;
-  border-top: 1px solid #E8E8E8;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -74,4 +77,18 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+.channelTitle{
+  color: #0a0a0a;
+  font-weight: 600;
+}
+.publishedAt{
+  margin-bottom: 15px;
+  color: #B8B8B8;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.description{
+
 }
