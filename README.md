@@ -12,8 +12,8 @@ youtubeAPI is a React app inspired by [Youtube](https://www.youtube.com/) and St
 
 ## Code Snippet
 
-* This function sets the entry component's state to a selected video, and an array of videos.
-* The videoSearch function makes an API call using YTSearch package. An API Key is passed as an argument.
+* This function sets the entry component's state to a selected video and an array of videos.
+* The videoSearch function makes an API call using the YTSearch package. An API Key is passed as an argument.
 * The function is passed down as a callback function. This callback method changes the state of the entry component. When a child component calls this function, the entry component re-renders, and subsequently re-renders all of its children. This is React 101.
 
 <p align="center"><img src="https://i.imgur.com/a9rZPc4.png" width="800px" /></p>
