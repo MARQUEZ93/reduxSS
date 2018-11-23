@@ -63,6 +63,7 @@ class SearchBar extends Component {
         {this.renderSVG()}
         <div className='sbDivInput'>
           <input
+            placeholder="Search"
             value={this.state.term}
             onChange={event => this.onInputChange(event.target.value)} />
         </div>
